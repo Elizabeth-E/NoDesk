@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoDesk", "NoDesk\NoDesk.csproj", "{F2DA3A45-FCC0-4B4D-92FD-4667FD42556F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoDeskDAL", "NoDeskDAL\NoDeskDAL.csproj", "{F98E8ABC-1E11-4532-B70E-5048F1FBDF6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F2DA3A45-FCC0-4B4D-92FD-4667FD42556F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2DA3A45-FCC0-4B4D-92FD-4667FD42556F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2DA3A45-FCC0-4B4D-92FD-4667FD42556F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F98E8ABC-1E11-4532-B70E-5048F1FBDF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98E8ABC-1E11-4532-B70E-5048F1FBDF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98E8ABC-1E11-4532-B70E-5048F1FBDF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98E8ABC-1E11-4532-B70E-5048F1FBDF6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
