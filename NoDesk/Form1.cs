@@ -29,12 +29,21 @@ namespace NoDesk
 
             var dbList = dbClient.ListDatabases().ToList();
 
-            dbtext.Text = "The list of databases on this server is: ";
-            foreach (var db in documents)
-            {
-                dbtext.Text += db.ToString();
-            }
+            //dbtext.Text = "The list of databases on this server is: ";
+            //foreach (var db in documents)
+            //{
+            //    dbtext.Text += db.ToString();
+           // }
         }
 
+        private void dbtext_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
